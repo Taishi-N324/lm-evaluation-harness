@@ -1,0 +1,5 @@
+column,path,key,max_score
+humaneval_0shot,en/harness_en/alltasks_0shot_allcases/humaneval/results.json,"results.humaneval.pass@1,create_test",1
+humaneval_plus_0shot,en/harness_en/alltasks_0shot_allcases/humaneval/results.json,"results.humaneval_plus.pass@1,create_test",1
+mbpp_3shot,en/harness_en/alltasks_3shot_allcases/mbpp/results.json,"results.mbpp.pass_at_1,none",1
+mbpp_plus_3shot,en/harness_en/alltasks_3shot_allcases/mbpp/results.json,"results.mbpp_plus.pass_at_1,none",1
