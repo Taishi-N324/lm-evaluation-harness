@@ -16,6 +16,8 @@ set -eu -o pipefail
 cd $PBS_O_WORKDIR
 
 export CUDA_VISIBLE_DEVICES=0,1,2,3
+export HF_HOME=/groups/gcg51557/experiments/0107_swallow_evaluation/HF_HOME
+export TRANSFORMERS_CACHE=/groups/gcg51557/experiments/0107_swallow_evaluation/HF_HOME
 source .venv/bin/activate
 
 MBPP_TASK_NAME="mbpp,mbpp_plus"
